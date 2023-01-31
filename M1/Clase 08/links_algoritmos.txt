@@ -1,0 +1,3 @@
+http://lwh.free.fr/pages/algo/tri/tri_selection_es.html#haut
+http://lwh.free.fr/pages/algo/tri/tri_bulle.html
+https://juncotic.com/ordenamiento-por-insercion-algoritmos-de-ordenamiento/

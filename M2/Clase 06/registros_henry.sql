@@ -24,7 +24,7 @@ VALUES (28456321,'Lucia','Fernandez','1992-5-25','2019-11-8'),
 (33128987,'Jorge','Perez','1988-2-19','2021-12-1');
 
 #Se insertan valores en la tabla cohortes.
-INSERT INTO cohorte 
+INSERT INTO cohorte (idCohorte, codigo, idCarrera, idInstructor, fechaInicio, fechaFinalizacion)
 VALUES (1235,'FT-1235',1,1,'2020-2-1','2020-6-30'),
 (1236,'FT-1236',1,2,'2020-4-5','2020-8-31'),
 (1237,'FT-1237',1,1,'2021-7-5','2021-11-30'),

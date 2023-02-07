@@ -52,7 +52,7 @@ FROM alumno
 WHERE idCohorte = 1235;
 
 -- 8. Del listado anterior se desea saber quienes ingresaron en el año 2019.<br>
--- creando una tabla temporal
+-- 1° opción: creando una tabla temporal
 CREATE TEMPORARY TABLE cohorte1235
 AS
 SELECT *
@@ -63,6 +63,11 @@ SELECT *
 FROM cohorte1235
 WHERE YEAR(fechaIngreso) = 2019;
 
+-- 2° opción: WHERE + AND
+SELECT *
+FROM alumno
+WHERE idCohorte = 1235
+AND YEAR(fechaIngreso) = 2019;
 -- 9. La siguiente consulta permite acceder a datos de otras tablas y devolver un listado con la carrera a la cual pertenece cada alumno:
 SELECT a.nombre, apellido, fechaNacimiento, cr.nombre
 FROM alumno a

@@ -1,0 +1,125 @@
+.main-img img{max-width:100%}.buymecoffee{background-color:gray;font-size:13px;color:#fff !important;font-size:medium;padding:5px 15px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;border-radius:20px;cursor:pointer;text-align:center;text-decoration:none !important;font-weight:normal;border:1px solid rgba(128,128,128,.5)}.buymecoffee img{padding-right:10px;height:20px;margin-top:1px !important;margin-bottom:1px !important;vertical-align:middle !important;animation:wiggle 3s infinite}.tags-date{display:flex;margin:20px 0;justify-content:space-between;align-items:center;font-size:15px;color:gray;align-items:center}.share-wrapper{display:flex;justify-content:space-between;align-items:center}.share-wrapper-bottom{border-top:1px solid #e6e6e6;padding-top:20px}#share a{color:gray;display:inline-block;margin:1px;font-size:23px;opacity:.75}#share a:hover{opacity:1}#share i{position:relative;top:15%;transform:translateY(-50%)}.facebook{background:#3b5998}.twitter{background:#55acee}.reddit{background:#ff4301}.linkedin{background:#0077b5}.email-social{background:gray}.post-container{width:100%;margin:20px auto;padding-left:28%;padding-right:28%;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}.post-container .post-title{display:inline-block}.post-container .post-content{line-height:1.4;font-size:1.25rem}.post-container .post-content .content>p:first-of-type::first-letter{float:left;font-size:4.5em;line-height:32px;padding:0 8px 0 0}.post-container .post-content a:link,.post-container .post-content a:hover,.post-container .post-content a:focus,.post-container .post-content a:visited{text-decoration:underline;color:inherit}.post-container .post-content .post-tags a{color:gray;text-decoration:none}.post-container .post-content p code,.post-container .post-content ul code,.post-container .post-content ol code{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;line-height:normal;background:#e6e6e6;color:#eb5757;border-radius:3px;font-size:75%;padding:.1em .4em}.post-container .post-title{font-size:40px;padding:0 0 15px 0}.post-container .post-title a:link,.post-container .post-title a:hover,.post-container .post-title a:focus,.post-container .post-title a:visited{color:#333;cursor:pointer;text-decoration:none}.post-container .post-tags{margin-bottom:10px}.post-container .post-tags a{border-radius:25px;padding:5px 7px;font-size:15px;text-decoration:none;color:#727171}.post-container .post-info{color:gray;font-size:.8em;padding-bottom:10px}.post-container article .post-title{padding:20px 0 10px 0}.post-container article p,.post-container article blockquote,.post-container article ul,.post-container article ul li,.post-container article ol,.post-container article ol li,.post-container article img:not(.main-img){max-width:100%;margin-top:1.3em;overflow-wrap:break-word;text-align:justify}.post-container article .content img:not(.main-img){max-width:100%;max-height:600px;margin-top:1.3em;overflow-wrap:break-word;text-align:justify;margin-left:auto;margin-right:auto;display:block}.post-container article blockquote p{padding-left:20px;border-left:5px solid #e6e6e6;font-style:italic}.post-container hr,.post-container article h2,.post-container article h3,.post-container article h4{margin-top:1.8em;margin-bottom:-0.3em;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}.post-container article .nav-buttons{margin-top:1.8em;display:flex;justify-content:space-between;width:100%;color:#727171}.post-container hr{min-height:5vh;margin-top:3em;font-size:13px;border:none;position:relative;width:30%;margin-left:auto;margin-right:auto;border-bottom:1px dashed #fff}.post-container hr:before{font-family:cursive;content:"...";font-size:2em;text-align:center;letter-spacing:.6em;position:absolute;left:50%;transform:translate(-50%, -50%)}.additional{padding-left:10%;padding-right:10%;padding-bottom:50px;display:flex;flex-direction:row;justify-content:space-between;flex-wrap:wrap}.additional .additional__text{font-weight:900;font-size:20px;margin-bottom:10px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}.additional p{width:100%}.additional .additional__post{width:30%;min-height:110px;position:relative}.additional .additional__post-title{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;font-size:20px;font-weight:800;padding:5px;position:absolute;bottom:0;width:100%;height:100%;color:#333;opacity:.92;background-size:1px 200px;text-align:center}.additional .additional__post-title:hover{background-position:100px}.additional .additional__post-pic{background-size:cover;background-repeat:no-repeat;background-position:center;width:100%;height:130px}.additional .additional__post-pic::after{display:block;background:#333;opacity:.17;position:absolute;content:"";width:100%;height:100%;top:0}.additional .additional__post-title .title-text{background-color:#fff;bottom:0;margin:0;padding:0 5px;left:0;display:inline;box-decoration-break:clone}.video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%}@media(max-width: 820px){.post-header,.post-container{width:90%;padding:0}.post{width:100%}.additional{width:100%}.post-container .additional .additional__post{height:100%;width:100%;margin-bottom:30px}.post-container .additional .additional__post::hover .additional__post-title .title-text{background-color:#000000c7;color:#fff}.buymecoffee-post{margin:0}.additional .additional__post{height:100%;width:100%;margin-bottom:30px}}@keyframes wiggle{0%{transform:rotate(0) scale(1)}60%{transform:rotate(0) scale(1)}75%{transform:rotate(0) scale(1.12)}80%{transform:rotate(0) scale(1.1)}84%{transform:rotate(-10deg) scale(1.1)}88%{transform:rotate(10deg) scale(1.1)}92%{transform:rotate(-10deg) scale(1.1)}96%{transform:rotate(10deg) scale(1.1)}100%{transform:rotate(0) scale(1)}}
+/* PrismJS 1.15.0
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+go+json+markdown+python+yaml */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,'DejaVu Sans Mono';
+	font-size: 16px;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #29292e;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
